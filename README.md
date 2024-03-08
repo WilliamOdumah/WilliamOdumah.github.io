@@ -19,32 +19,62 @@ Before you begin, ensure you have the following:
 
 **Etter's Principle - Use Distributed Version Control:**
 GitHub provides a platform to host our project, complete with a version control system to manage and track changes.
+- Go to [GitHub](https://github.com) and log in to your account.
+- Click the '+' icon on the top-right and choose 'New repository'.
+- Name your repository as `yourusername.github.io`—replace `yourusername` with your actual GitHub username.
+- Make sure the repository is public.
+- Initialize with a README to start off.
+- Click on 'Create repository'.
 
 ### Step 2: Add Your Markdown Resume
 
 **Etter's Principle - Lightweight Markup:**
 Markdown is chosen for its simplicity and ease of use.
+- In your repository, click on 'Add file' > 'Create new file'.
+- Name this file `index.md`—this will be the homepage of your resume.
+- Paste the content of your Markdown resume into this file.
+- Write a commit message at the bottom, something like "Add initial resume version".
+- Click 'Commit new file'.
 
 ### Step 3: Enable GitHub Pages
 
 **Etter's Principle - Static Site Generators:**
 GitHub Pages will serve our site from the repository with minimal setup.
+- Inside your repository, go to the 'Settings' tab.
+- Scroll to the 'Pages' section.
+- Under 'Source', use the dropdown to select the 'main' or 'master' branch as your publishing source.
+- Confirm by clicking 'Save'. GitHub will now deploy your site and give you a URL to access it.
 
 ### Step 4: Choose and Apply a Jekyll Theme
 
 **Etter's Principle - Focus on Audience and Aesthetics:**
 A Jekyll theme is employed to make the resume visually appealing to viewers.
+- In your repository's 'Settings', scroll down to the 'Pages' section.
+- Click 'Choose a theme' to view the theme options provided by GitHub Pages.
+- Browse and select a theme that suits your style and click 'Select theme'.
+- If the theme chooser isn't working or if you prefer to manually set a theme, you can do so by creating or editing a `_config.yml` file in the root of your repository.
+- To set a theme manually, add the following line to your `_config.yml` file:
+
+```yaml
+theme: THEME-NAME
+```
+- Replace THEME-NAME with the actual name of the theme you wish to use. You can find theme names from the list of supported themes or from external theme documentation.
+- Commit the changes to your _config.yml file, and GitHub Pages will build your site using the new theme.
 
 ### Step 5: Access Your Site
 
 **Etter's Principle - Audience Focus:**
 Our resume is now accessible to any prospective employer or collaborator.
-
+- Simply type `https://yourusername.github.io` in your web browser, substituting `yourusername` with your GitHub username.
+- Press 'Enter' and you'll see your published resume!
 
 ### Step 6: Customize Your Theme
 
 **Etter's Principle - Plain Text Over Proprietary Formats:**
 The theme is customized with Jekyll's plain text configurations for a personal touch.
+- To make further customizations, you can modify the `_config.yml` file or add more `.md` files for additional content.
+- Commit these changes to your repository.
+- After a short while, the changes will be reflected on your GitHub Pages site.
 
 ![Resume Preview GIF](Resume_Instruction.gif)
 
