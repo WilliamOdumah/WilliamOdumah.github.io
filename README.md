@@ -25,6 +25,7 @@ GitHub provides a platform to host our project, complete with a version control 
 - Make sure the repository is public.
 - Initialize with a README to start off.
 - Click on 'Create repository'.
+![Step 1 GIF](Step1.gif)
 
 ### Step 2: Add Your Markdown Resume
 
@@ -55,7 +56,7 @@ A Jekyll theme is employed to make the resume visually appealing to viewers.
 - If the theme chooser isn't working or if you prefer to manually set a theme, you can do so by creating or editing a `_config.yml` file in the root of your repository.
 - To set a theme manually, add the following line to your `_config.yml` file:
 
-```yaml
+```yml
 theme: THEME-NAME
 ```
 - Replace THEME-NAME with the actual name of the theme you wish to use. You can find theme names from the list of supported themes or from external theme documentation.
@@ -67,6 +68,7 @@ theme: THEME-NAME
 Our resume is now accessible to any prospective employer or collaborator.
 - Simply type `https://yourusername.github.io` in your web browser, substituting `yourusername` with your GitHub username.
 - Press 'Enter' and you'll see your published resume!
+![Step 5 GIF](Step5.gif)
 
 ### Step 6: Customize Your Theme
 
